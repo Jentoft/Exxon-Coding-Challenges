@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html { background-color: lightcyan}
+
+
+div { background-color: lightcyan}
+
+
+
+.header {
+        background-color: white;
+        margin-left: 10px;
+    }
+
