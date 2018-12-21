@@ -1,0 +1,18 @@
+<div>
+    <table>
+        <tr *ngFor="let claim of claims">
+            <td>{{claim.name}}</td>
+            <td>Patient ID: {{claim.patientID}}</td>
+            <td>Date of Birth: {{claim.dob}}</td>
+            <td>Service ID: {{claim.serviceID}}</td>
+            <!--Using a big, nested trinary clause to control formatting-->
+            <td [ngClass] = "claim.service=='BV' ? 'bvColoring' :
+                    (claim.service=='PA' ? 'paColoring' :
+                    (claim.service=='CoPay' ? 'copayColoring':
+                    (claim.service=='PAP' ? 'papColoring' : 
+                    (claim.service=='PR' ? 'prColoring' : ''))))">
+                {{claim.service}}
+            </td>
+        </tr>
+    </table>
+</div>
