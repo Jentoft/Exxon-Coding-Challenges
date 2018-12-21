@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { CaseListComponent } from './case-list/case-list.component';
 import { CurrentCasesComponent } from './current-cases/current-cases.component';
 import { SummaryComponent } from './summary/summary.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SummaryComponent } from './summary/summary.component';
     SummaryComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

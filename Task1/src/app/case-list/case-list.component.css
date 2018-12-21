@@ -1,0 +1,28 @@
+table {
+    margin: auto;
+}
+
+.bvColoring {
+    background-color: forestgreen;
+    color: white;
+}
+
+.paColoring {
+    background-color: orange;
+    color: white;
+}
+
+.copayColoring {
+    background-color: blueviolet;
+    color: white;
+}
+
+.papColoring {
+    background-color: blue;
+    color: white;
+}
+
+.prColoring {
+    background-color: black;
+    color: white;
+}

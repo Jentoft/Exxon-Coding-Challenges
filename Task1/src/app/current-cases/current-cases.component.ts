@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./current-cases.component.css']
 })
 export class CurrentCasesComponent implements OnInit {
+  dummy = "ooooo"; /**Dummy variable to guarentee size of sample blocks of colors*/
 
   constructor() { }
 
